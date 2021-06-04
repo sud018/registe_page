@@ -1,0 +1,241 @@
+body{
+    /* background-color: grey; */
+    margin-right: 20px;
+    padding-right: -30px;
+    font-family: Montserrat-white;
+}
+.vtie{
+
+  position: relative;
+  border-radius: 100%;
+  left:730px;
+  height:100px;
+  width:100px;
+  top: 25px;
+  z-index: 1;
+}
+.fff{
+  color: white;
+  margin-left: 10px;
+}
+
+
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: inherit;
+}
+.search{
+  margin-left: 100px;
+  height: 40px;
+  width: 30%;
+  border-radius: 10px;
+}
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: Montserrat-white;
+}
+
+.navbar {
+  /* padding: 0 0 4.5rem; */
+  background-color: transparent;
+  margin: 0px;
+  width: 1598px;
+  position: relative;
+  right: 15px;
+  background-color: grey;
+}
+
+h1{
+  padding-top: 20px;
+  margin-left: 10px;
+
+}
+
+
+.container .hos{
+  height: 490px;
+  width: 479px;
+ position: relative;
+ right: 15px;
+ overflow: hidden;
+}
+input{
+  border:  1px ;
+  outline-color: lightblue;
+  border-radius: 2px;
+
+}
+label{
+  position: relative;
+  left:30px;
+  font-weight: bold;
+  /* color: #fff; */
+}
+.name1{
+  width: 50%;
+  margin-top: 20px;
+  margin-left:100px;
+  border-radius: 4px;
+}
+.name2{
+  width: 50%;
+  margin-top: 20px;
+  margin-left:85px;
+  border-radius: 4px;
+}
+.name3{
+  width: 50%;
+  margin-top: 20px;
+  margin-left:103px;
+  border-radius: 4px;
+}
+.name4{
+  width: 50%;
+  margin-top: 20px;
+  margin-left:150px;
+  border-radius: 4px;
+}
+::placeholder {
+  color: grey;
+  opacity: 1;
+  text-align: center;
+}
+::-webkit-datetime-edit-year-field:not,
+::-webkit-datetime-edit-month-field:not,
+::-webkit-datetime-edit-day-field:not {
+    color: transparent;
+}
+.gender{
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.male{
+
+  margin-left: 67px;
+}
+.female{
+
+  margin-left: 33px;
+}
+.doctor{
+  margin-left: 35px;
+}
+.student{
+margin-left: 20px;
+
+}
+.others{
+margin-left: 20px;
+  margin-top: 13px;
+}
+.Professional{
+  margin-left: 5px;
+}
+.preaddress{
+  width: 50%;
+  margin-top: 20px;
+  margin-left:72px;
+  border-radius: 4px;
+}
+.peraddress{
+  width: 50%;
+  margin-top: 20px;
+  margin-left:72px;
+  border-radius: 4px;
+}
+.mobile{
+  width: 50%;
+  margin-top: 20px;
+  margin-left:110px;
+  border-radius: 4px;
+}
+.hosp{
+  width: 100%;
+  height: 100%;
+}
+row{
+  height:80%;
+}
+button{
+  /* background: transparent; */
+
+  /* position: relative; */
+  border: 1px solid grey;
+  position: relative;
+  bottom: 5px;
+  border-radius: 2px;
+  width: 30%;
+  left: 250px;
+  background-color: grey;
+  color: #fff;
+}
+#doctor-info{
+  display: none;
+}
+#student-info{
+  display: none;
+}
+#other-info{
+  display: none;
+}
+.regno{
+  width: 30%;
+  margin-top: 20px;
+  margin-left: 100px;
+}
+.aadhar{
+  width: 30%;
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+.college{
+  width: 30%;
+  margin-top: 20px;
+  margin-left: 100px;
+}
+.other{
+  width: 30%;
+  margin-top: 20px;
+  margin-left: 100px;
+  /* width: 100%;
+  margin-top: 20px; */
+}
+/* li{
+  list-style: none;
+} */
+ul {
+  list-style: none;
+}
+
+ul li:before{
+   content: '';
+
+   border-right:2px solid black;
+   border-bottom:2px solid black;
+   width:10px;
+   height:10px;
+   /* top: calc(50% - 4px); */
+   left: 60px;
+   transform: translateY(-50%) rotate(-45deg);
+    position: absolute;
+    margin-top: 30px;
+}
+
+.contain2{
+   position: relative;
+  background-color: #dcdcdc;
+  width:816px;
+ height: 100%;
+ padding-left: 30px;
+  border: 4px solid lightblue;
+  margin-left: -30px;
+  margin-right: 20px;
+}
