@@ -35,7 +35,9 @@ body{
 
 h1{
   padding-top: 20px;
-  margin-left: 10px;
+  position: relative;
+  left: 113px;
+  top: 84px;
 
 }
 
@@ -60,28 +62,22 @@ label{
   /* color: #fff; */
 }
 .name1{
-  width: 50%;
-  margin-top: 20px;
-  margin-left:100px;
-  border-radius: 4px;
+  width: 33%;
+position: relative;
+border-radius: 4px;
+left: 102px;
+top: 2px;
 }
 .name2{
-  width: 50%;
-  margin-top: 20px;
-  margin-left:85px;
-  border-radius: 4px;
+  width: 33%;
+      position: relative;
+      left: 106px;
+      border-radius: 4px;
+      top: 19px;
 }
-.name3{
-  width: 50%;
-  margin-top: 20px;
-  margin-left:103px;
-  border-radius: 4px;
-}
-.name4{
-  width: 50%;
-  margin-top: 20px;
-  margin-left:150px;
-  border-radius: 4px;
+.password{
+  position: relative;
+      top: 21px;
 }
 ::placeholder {
   color: grey;
@@ -93,55 +89,13 @@ label{
 ::-webkit-datetime-edit-day-field:not {
     color: transparent;
 }
-.gender{
-  margin-top: 10px;
-  margin-left: 5px;
-}
-.male{
 
-  margin-left: 116px;
-}
-.female{
 
-  margin-left: 33px;
-}
-.doctor{
-  margin-left: 84px;
-}
-.student{
-margin-left: 20px;
 
-}
-.others{
-margin-left: 20px;
-  margin-top: 13px;
-}
-.Professional{
-  margin-left: 5px;
-}
-.preaddress{
-  width: 50%;
-  margin-top: 20px;
-  margin-left:72px;
-  border-radius: 4px;
-}
-.peraddress{
-  width: 50%;
-  margin-top: 20px;
-  margin-left:72px;
-  border-radius: 4px;
-}
-.mobile{
-  width: 50%;
-  margin-top: 20px;
-  margin-left:110px;
-  border-radius: 4px;
-}
+
 .hosp{
   width: 100%;
   height: 100%;
-
-
 }
 row{
   height:80%;
@@ -156,53 +110,20 @@ button{
   /* background: transparent; */
 
   /* position: relative; */
-  border: 1px solid grey;
+border: 1px solid grey;
+position: relative;
+top: 47px;
+border-radius: 2px;
+width: 18%;
+left: 236px;
+background-color: grey;
+color: #fff;
+}
+.signup{
   position: relative;
-  bottom: 5px;
-  border-radius: 2px;
-  width: 30%;
-  left: 250px;
-  background-color: grey;
-  color: #fff;
+  top: 127px;
+left: 86px
 }
-#doctor-info{
-  display: none;
-}
-#student-info{
-  display: none;
-}
-#other-info{
-  display: none;
-}
-.regno{
-  width: 30%;
-  margin-top: 20px;
-  margin-left: 142px;
-}
-.aadhar{
-  width: 30%;
-  margin-top: 20px;
-  margin-left: 142px;
-}
-.hospital{
-  width: 30%;
-  margin-top: 20px;
-  margin-left: 142px;
-}
-.college{
-  width: 30%;
-  margin-top: 20px;
-  margin-left: 142px;
-
-}
-.other{
-  width: 30%;
-  margin-top: 20px;
-  margin-left: 142px;
-
-
-}
-
 ul {
   list-style: none;
 }
